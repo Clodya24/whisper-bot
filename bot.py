@@ -5,7 +5,7 @@ from pydub import AudioSegment
 import os
 
 # Загружаем модель Whisper один раз
-model = whisper.load_model("base")
+model = whisper.load_model("tiny")
 
 # Обработчик команды /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
